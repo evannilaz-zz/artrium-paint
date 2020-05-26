@@ -4,8 +4,9 @@ function clearScreen() {
     const body = document.querySelector("body");
     const nbody = document.createElement("nbody");
     const text = document.createElement("div");
-    text.innerText = "Not For Mobile. Mobile Version being Prepared.";
-    text.style.fontSize = "4rem";
+    text.innerText = "Not For Mobile.";
+    text.style.fontSize = "2.5rem";
+    text.style.fontFamily = "Times New Roman";
     html.removeChild(body);
     nbody.appendChild(text);
     html.appendChild(nbody);
