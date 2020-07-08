@@ -1,4 +1,11 @@
 @import "reset.css";
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
   background-color: #f6f9fc;
   font-family: -apple-system, "Raleway", sans-serif;
@@ -14,6 +21,7 @@ body {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: crosshair;
 }
 
 .controls {
