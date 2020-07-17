@@ -1,2 +1,2 @@
 # Artrium - Paint
-Closed.
+Closed, but site operating.
