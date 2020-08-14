@@ -1,2 +1,2 @@
-# Artrium - Paint
-Closed, but site operating.
+# Artrium Paint
+Repo closed, but site operating.
